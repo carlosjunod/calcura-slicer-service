@@ -1,0 +1,18 @@
+{
+  "name": "calcura-slicer-service",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "worker": "node worker/index.js",
+    "api": "node api/index.js",
+    "test:parse": "node scripts/test-parse.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.7.0",
+    "fastify": "^4.27.0",
+    "@fastify/multipart": "^8.3.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
