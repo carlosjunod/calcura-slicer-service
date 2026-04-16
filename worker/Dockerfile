@@ -23,6 +23,20 @@ RUN apt-get update && apt-get install -y \
   libgdk-pixbuf-2.0-0 \
   libgtk-3-0 \
   libglib2.0-0 \
+  libgstreamer-1.0-0 \
+  libgstreamer-plugins-base1.0-0 \
+  libwebkit2gtk-4.1-0 \
+  libsoup-3.0-0 \
+  libjpeg-turbo8 \
+  libpng16-16 \
+  libfreetype6 \
+  libfontconfig1 \
+  libharfbuzz0b \
+  libwayland-client0 \
+  libwayland-egl1 \
+  libwayland-cursor0 \
+  libxkbcommon0 \
+  libxkbcommon-x11-0 \
   xvfb \
   dbus \
   libdbus-1-3 \
